@@ -4,6 +4,7 @@
 @import './utility/componentes.css';
 @import './utility/tipografia.css';
 @import './utility/cores.css';
+@import './utility/formulario.css';
 
 /* global */
 @import './global/header.css';
@@ -28,6 +29,11 @@
 @import './seguros/vantagens.css';
 @import './seguros/perguntas.css';
 
+/* contato */
+@import './contato/contato.css';
+@import './contato/lojas.css';
+
 /* termos */
 @import './termos/termos.css';
+
 
