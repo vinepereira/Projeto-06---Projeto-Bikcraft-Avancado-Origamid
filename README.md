@@ -6,6 +6,8 @@ O último projeto realizado no curso do Origamid, uma grande experiência conseg
 - Grid prática
 - NPM commands & Packages (utilizado Cleancss)
 - Estrutura de pastas
+- Interações via CSS via :checked e seletores de irmãos "+"
+
 
 Ainda em construção...
 
