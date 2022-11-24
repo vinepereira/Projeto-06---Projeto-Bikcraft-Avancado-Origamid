@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Orçamento">
+    <link rel="preload" href="./assets/css/style.css" as="style">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,8 +87,8 @@
                         <img src="./assets/img/bicicletas/nebula.jpg" alt="Bicicleta Preta">
                     </div>
                 </div>
-                
-                 <!-- --------------------ORÇAMENTO SEGURO-------------------- -->
+
+                <!-- --------------------ORÇAMENTO SEGURO-------------------- -->
                 <div class="orcamento-conteudo" id="orcamento-seguro">
                     <h2 class="font-1-xs cor-5">Escolha o plano</h2>
 
@@ -144,6 +145,10 @@
                 <div>
                     <label for="estado">Estado</label>
                     <input type="text" name="estado" id="estado" placeholder="Seu Estado">
+                </div>
+                <div class="termos-checkbox col-2">
+                    <input type="checkbox" name="termos" id="termos" required>
+                    <label for="termos">Li e aceito os <a href="./termos.html">termos e condições</a>.</label>
                 </div>
                 <button class="button col-2">Solicitar Orçamento</button>
             </div>
