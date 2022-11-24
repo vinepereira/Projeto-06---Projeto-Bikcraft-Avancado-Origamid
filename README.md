@@ -7,6 +7,7 @@ O último projeto realizado no curso do Origamid, uma grande experiência conseg
 - NPM commands & Packages (utilizado Cleancss)
 - Estrutura de pastas
 - Interações via CSS via :checked e seletores de irmãos "+"
+- link CSS "preload" para pré carregamento prioritário
 
 
 Ainda em construção...
