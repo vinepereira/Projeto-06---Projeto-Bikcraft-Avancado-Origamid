@@ -4,10 +4,14 @@ O último projeto realizado no curso do Origamid, uma grande experiência conseg
 - Utilitários CSS
 - Flebox prática
 - Grid prática
-- NPM commands & Packages (utilizado Cleancss)
 - Estrutura de pastas
-- Interações via CSS via :checked e seletores de irmãos "+"
+- Componentes básicos (reutilização)
+- Flutuação de imagens com CSS (box-shadow, linear-gradient)
+- HTML Semântico aplicado (main,nav,article,section (aria-label),footer, picture, source)
+- Toggle (interação) via CSS via :checked e seletores de irmãos "+"
 - link CSS "preload" para pré carregamento prioritário
+- SEO, Lighthouse (Analizador de página), Definir width e height no html
+- NPM commands & Packages (utilizado Cleancss)
 
 
 Ainda em construção...

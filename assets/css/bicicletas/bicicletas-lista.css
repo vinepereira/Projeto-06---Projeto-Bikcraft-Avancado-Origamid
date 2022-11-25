@@ -30,6 +30,8 @@
 
 .bicicletas-lista-items img {
      margin-bottom: 1rem;
+     width: 100%;
+     height: 100%;
 }
 
 .bicicletas-lista-items h3 {
