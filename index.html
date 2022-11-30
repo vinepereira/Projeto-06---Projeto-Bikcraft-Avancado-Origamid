@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap"
         rel="stylesheet">
     <title>Bikcraft - Bicicletas Elétricas</title>
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -34,13 +35,15 @@
     <main class="introducao-bg cor-">
         <div class="introducao container">
             <div class="introducao-conteudo ">
-                <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o
+                <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span
+                        class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade,
+                    feitas sob medida para o
                     cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a class="button" href="./bicicletas.html">Escolha a sua</a>
+                <a class="button fadeInDown" href="./bicicletas.html" data-anime="600">Escolha a sua</a>
             </div>
 
-            <picture>
+            <picture class="fadeInDown" data-anime="800">
                 <source media="(max-width: 800px)" srcset="./assets/img/bicicletas/nimbus.jpg">
                 <img src="./assets/img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta" width="1280" height="1600">
             </picture>
@@ -103,7 +106,7 @@
 
 
             <div class="tecnologia-imagem">
-                <img src="./assets/img/fotos/tecnologia.jpg" alt="" width="1200" height="1920" >
+                <img src="./assets/img/fotos/tecnologia.jpg" alt="" width="1200" height="1920">
             </div>
         </div>
     </article>
@@ -123,7 +126,8 @@
 
     <section class="depoimento" aria-label="Depoimento">
         <div>
-            <img src="./assets/img/fotos/depoimento.jpg" alt="Pessoa pedalando uma bicicleta BikCraft" width="1560" height="1360">
+            <img src="./assets/img/fotos/depoimento.jpg" alt="Pessoa pedalando uma bicicleta BikCraft" width="1560"
+                height="1360">
         </div>
         <div class="depoimento-conteudo">
             <blockquote class="font-1-xl cor-p5">
@@ -196,6 +200,9 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
