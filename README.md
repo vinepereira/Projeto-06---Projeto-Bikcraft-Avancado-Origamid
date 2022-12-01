@@ -12,9 +12,11 @@ O último projeto realizado no curso do Origamid, uma grande experiência conseg
 - link CSS "preload" para pré carregamento prioritário
 - SEO, Lighthouse (Analizador de página), Definir width e height no html
 - NPM commands & Packages (utilizado Cleancss)
+- Básico de JavaScript
+- Básico de animação usando Plugin Externo (simple-anime)
 
 
-Ainda em construção...
+
 
 # Tecnologias:
 - HTML
